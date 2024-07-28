@@ -1,0 +1,97 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\MOHAMAD WALID LEHFI\\Desktop\\Bedava Ticket\\Bedava Ticket\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Bedava Ticket.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Bedava Ticket.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\MOHAMAD WALID LEHFI\\Desktop\\Bedava Ticket\\Bedava Ticket\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MOHAMAD WALID LEHFI\\Desktop\\Bedava Ticket\\Bedava Ticket\\wwwroot\\assets\\css\\style-cart.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style-cart.css"
+    },
+    {
+      "Id": "C:\\Users\\MOHAMAD WALID LEHFI\\Desktop\\Bedava Ticket\\Bedava Ticket\\wwwroot\\assets\\css\\styles.css",
+      "PackagePath": "staticwebassets\\assets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\MOHAMAD WALID LEHFI\\Desktop\\Bedava Ticket\\Bedava Ticket\\wwwroot\\assets\\images\\Air Travel Logo (1).png",
+      "PackagePath": "staticwebassets\\assets\\images\\Air Travel Logo (1).png"
+    },
+    {
+      "Id": "C:\\Users\\MOHAMAD WALID LEHFI\\Desktop\\Bedava Ticket\\Bedava Ticket\\wwwroot\\assets\\images\\bak1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bak1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MOHAMAD WALID LEHFI\\Desktop\\Bedava Ticket\\Bedava Ticket\\wwwroot\\assets\\images\\img-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\img-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MOHAMAD WALID LEHFI\\Desktop\\Bedava Ticket\\Bedava Ticket\\wwwroot\\assets\\images\\img-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\img-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MOHAMAD WALID LEHFI\\Desktop\\Bedava Ticket\\Bedava Ticket\\wwwroot\\assets\\images\\ph1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ph1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MOHAMAD WALID LEHFI\\Desktop\\Bedava Ticket\\Bedava Ticket\\wwwroot\\assets\\images\\ph10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ph10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MOHAMAD WALID LEHFI\\Desktop\\Bedava Ticket\\Bedava Ticket\\wwwroot\\assets\\images\\ph2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ph2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MOHAMAD WALID LEHFI\\Desktop\\Bedava Ticket\\Bedava Ticket\\wwwroot\\assets\\images\\ph3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ph3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MOHAMAD WALID LEHFI\\Desktop\\Bedava Ticket\\Bedava Ticket\\wwwroot\\assets\\images\\ph4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ph4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MOHAMAD WALID LEHFI\\Desktop\\Bedava Ticket\\Bedava Ticket\\wwwroot\\assets\\images\\ph5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ph5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MOHAMAD WALID LEHFI\\Desktop\\Bedava Ticket\\Bedava Ticket\\wwwroot\\assets\\images\\ph7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ph7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MOHAMAD WALID LEHFI\\Desktop\\Bedava Ticket\\Bedava Ticket\\wwwroot\\assets\\images\\ph8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ph8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MOHAMAD WALID LEHFI\\Desktop\\Bedava Ticket\\Bedava Ticket\\wwwroot\\assets\\images\\ph9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ph9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MOHAMAD WALID LEHFI\\Desktop\\Bedava Ticket\\Bedava Ticket\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MOHAMAD WALID LEHFI\\Desktop\\Bedava Ticket\\Bedava Ticket\\wwwroot\\assets\\js\\script.js",
+      "PackagePath": "staticwebassets\\assets\\js\\script.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Bedava Ticket.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Bedava Ticket.props",
+      "PackagePath": "build\\Bedava Ticket.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Bedava Ticket.props",
+      "PackagePath": "buildMultiTargeting\\Bedava Ticket.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Bedava Ticket.props",
+      "PackagePath": "buildTransitive\\Bedava Ticket.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

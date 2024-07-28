@@ -1,0 +1,142 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!--arama kisim-->
+<form method="post">
+    <div class="hero">
+        <div class="containar">
+            <form action="index.html" method="get" class="search-form">
+                <div class="form-group">
+                    <i class="fa fa-map-marker"></i>
+                    <select type="text" class="form-control" name="Gidiş" id="from-airport">
+                        <option value="">Gidiş Havalimana</option>
+                        <option value="Atatürk International Airport">Atatürk International Airport</option>
+                        <option value="Sabih Gökçen International Airport">Sabih Gökçen International Airport</option>
+                        <option value="Ankara Esenboga Airport">Ankara Esenboga Airport</option>
+                        <option value="Antalya Airport">Antalya Airport</option>
+                        <option value="Izmir Adnan Menderes Airport">Izmir Adnan Menderes Airport</option>
+                        <option value="Dalaman Airport">Dalaman Airport</option>
+                        <option value="Bodrum Milas Airport">Bodrum Milas Airport</option>
+                        <option value="Trabzon Airport">Trabzon Airport</option>
+                        <option value="Diyarbakir Airport">Diyarbakir Airport</option>
+                        <option value="Gaziantep Airport">Gaziantep Airport</option>
+                        <option value="Van Ferit Melen Airport">Van Ferit Melen Airport</option>
+                        <option value="Adana Sakirpasa Airport">Adana Sakirpasa Airport</option>
+                        <option value="Konya Airport">Konya Airport</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-map-marker"></i>
+                    <select type="text" class="form-control" name="Dönüş" id="to-airport">
+                        <option value="">Dönüş Havalimana</option>
+                        <option value="Diyarbakir Airport">Diyarbakir Airport</option>
+                        <option value="Gaziantep Airport">Gaziantep Airport</option>
+                        <option value="Van Ferit Melen Airport">Van Ferit Melen Airport</option>
+                        <option value="Adana Sakirpasa Airport">Adana Sakirpasa Airport</option>
+                        <option value="Konya Airport">Konya Airport</option>
+                        <option value="Ankara Esenboga Airport">Ankara Esenboga Airport</option>
+                        <option value="Antalya Airport">Antalya Airport</option>
+                        <option value="Izmir Adnan Menderes Airport">Izmir Adnan Menderes Airport</option>
+                        <option value="Dalaman Airport">Dalaman Airport</option>
+                        <option value="Bodrum Milas Airport">Bodrum Milas Airport</option>
+                        <option value="Trabzon Airport">Trabzon Airport</option>
+                        <option value="Atatürk International Airport">Atatürk International Airport</option>
+                        <option value="Sabih Gökçen International Airport">Sabih Gökçen International Airport</option>
+                    </select>
+
+
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-calendar"></i>
+                    <input type="text" class="form-control" id="inputCheckIn" placeholder="Check In" name="GidişZaman">
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-calendar"></i>
+                    <input type="text" class="form-control" id="inputCheckOut" placeholder="Check out" name="DönüşZaman">
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-bed"></i>
+                    <select class="form-control" name="Babaklar">
+                        <option>Babaklar</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-user"></i>
+                    <select class="form-control" name="Yetişkinler">
+                        <option>Yetişkinler</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-user"></i>
+                    <select class="form-control" name="Çocuklar" >
+                        <option>çocuklar</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                    </select>
+                    <div class="col-6">
+                        <input type="text" class="form-control" placeholder="Totol" id="totol" name="totol" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button onclick="redirectCheck()" type="submit" class="btn btn-primary">Check</button>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    <!--subscribe-->
+    <section class="section-color">
+        <div class="container text-center">
+            <h2 class="section-title">senin  yardım etmek için burdayız?</h2>
+            <p class="section-subtitle">haberlerimizi almak için abone olun</p>
+            <a href="/Home/signpPaga" class="btn btn-white">abone ol</a>
+        </div>
+    </section>
+    <!--Hizmetler-->
+    <div class="container">
+        <div class="row">
+            <article class="article col-lg-4">
+                <i class="fa fa-legal article-icon"></i>
+                <h3 class="article-titile"> Online rezervasyon hizmeti.</h3>
+                <p>Online rezervasyon hizmeti modern havayollarının sunduğu en önemli hizmetlerden biridir. Bu hizmet, yolcuların havayolu web siteleri veya akıllı telefon uygulamaları aracılığıyla biletlerini kolay ve rahat bir şekilde rezerve etmelerine olanak tanıyor.</p>
+                <a href="#" class="btn btn-primary">Continue reading</a>
+            </article>
+            <article class="article col-lg-4">
+                <i class="fa fa-plane article-icon"></i>
+                <h3 class="article-titile">Kendi kendine check-in hizmeti</h3>
+                <p>Self check-in hizmeti, yolcuların havalimanlarındaki belirlenmiş kiosklar veya havayolu web siteleri ve uygulamaları aracılığıyla seyahat prosedürlerini kendi başlarına tamamlamalarına olanak tanıyor.</p>
+                <a href="#" class="btn btn-primary">Continue reading</a>
+            </article>
+            <article class="article col-lg-4">
+                <i class="fa fa-meetup article-icon"></i>
+                <h3 class="article-titile"> Müşteri hizmetleri ve günün her saati destek</h3>
+                <p>Bu hizmet, yolcuların fazla veya ekstra bagaj ücretlerini online olarak önceden ödemesine olanak tanıyarak zamandan tasarruf sağlıyor ve havalimanında ücret ödemeye kıyasla onlara indirim sağlıyor. Bu hizmet şunları içerir   </p>
+                <a href="#" class="btn btn-primary">Continue reading</a>
+            </article>
+
+        </div>
+    </div>
+</form>

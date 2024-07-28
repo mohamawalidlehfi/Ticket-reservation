@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bedava Ticket</title>
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <link rel="stylesheet" href="~/assets/css/styles.css">
+    <link rel="stylesheet" href="~/assets/css/style-cart.css">
+
+
+
+</head>
+<!--navbar-->
+<body>
+    <header class=" p-3 bg-info text-white">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-black text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap" /></svg>
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li>
+                        <a href="/Home/index" class="nav-link1  px-3 text-secondary">
+                            <img class="img" src="~/assets/images/Air Travel Logo (1).png" alt="Bedava Ticket">
+                        </a>
+                    </li>
+                    <span class="logo_text"><div class="logo_text">Bedava Ticket</div></span>
+                    <li><a href="/Home/index" class="navlink nav-link px-2 text-black">Uçak Bileti</a></li>
+                    <li><a href="/Home/oteller" class="navlink nav-link px-2 text-black">Oteller</a></li>
+                    <li><a href="/Home/Privacy" class="navlink nav-link px-2 text-black">contact</a></li>
+                </ul>
+
+                <div class="text-end">
+                    <button onclick="redirectGirişYap()" type="button" class="btn btn-black-light me-2">Giriş Yap</button>
+                    <button onclick="redirectkayol()" type="button" class="btn btn-warning">Kaydi ol</button>
+                </div>
+            </div>
+        </div>
+    </header>
+            @RenderBody()
+    <footer>
+        <div class="footer-links">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <h3>Hızlı Linkler</h3>
+                        <div class="menu-links">
+                            <ul>
+                                <li><a href="contact.html"> > Contact us</a></li>
+                                <li><a href="index.html">Terms & Condition</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="cnt-info">
+                            <h3>İletişim bilgileri</h3>
+                            <p>
+                                Telefon: 444 1 442,
+                                Adres: Tayakadın, Terminal Caddesi No:1, 34283 Arnavutköy/İstanbul
+                                Telefon: 444 1 442
+                                Kodu: IST
+                                Yer: İmrahor-Tayakadın-Yeniköy, Arnavutköy
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Kayıt ofisi</h3>
+                        <ul class="reg-office">
+                            <li>
+                                <a href="https://maps.app.goo.gl/rL5FQQaZp9ZEqQkc7" target="_blank">
+                                    <i class="fa-solid fa-location-dot mb"></i>
+                                    <span>Telefon: 444 1 442</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:444 1 442"> <i class="fa-solid fa-phone rgi"></i> +444 1 442</a>
+                            </li>
+                            <li>
+                                <a href="mailto:info@İstanbul.com">
+                                    <i class="fa-solid fa-envelope rgi"></i>info@İstanbul.com
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <p>&copy; Uçuş Rezervasyonu 2024. Tüm hakları saklıdır.</p>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+        <script src="~/assets/js/bootstrap.bundle.min.js"></script>
+        <script src="~/assets/js/script.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

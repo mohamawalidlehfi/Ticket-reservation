@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bedava Ticket", "Bedava Ticket\Bedava Ticket.csproj", "{3B2E90BD-C411-46CD-9ED7-24A9E7F53BD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B2E90BD-C411-46CD-9ED7-24A9E7F53BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2E90BD-C411-46CD-9ED7-24A9E7F53BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2E90BD-C411-46CD-9ED7-24A9E7F53BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2E90BD-C411-46CD-9ED7-24A9E7F53BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD5C1B2C-1228-49C0-A4C2-31C246384DF2}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewData["Title"] = "BilteList";
+}
+
+<body>
+    <div class="container">
+        <h1 class="mt-4">Flight List</h1>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Gidiş</th>
+                    <th>Dönüş</th>
+                    <th>Gidiş Zaman</th>
+                    <th>Dönüş Zaman</th>
+                    <th>Babaklar</th>
+                    <th>Yetişkinler</th>
+                    <th>Çocuklar</th>
+                    <th>Totol</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var Müşteri in Model.Müşteri)
+                {
+                    <tr>
+                        <td>@Müşteri.Gidiş</td>
+                        <td>@Müşteri.Dönüş</td>
+                        <td>@Müşteri.GidişZaman</td>
+                        <td>@Müşteri.DönüşZaman</td>
+                        <td>@Müşteri.Babaklar</td>
+                        <td>@Müşteri.Yetişkinler</td>
+                        <td>@Müşteri.Çocuklar</td>
+                        <td>@Müşteri.Totol</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
